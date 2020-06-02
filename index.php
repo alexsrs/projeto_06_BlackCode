@@ -8,8 +8,7 @@
             <link rel="stylesheet" type="text/css" href="css/style.css">
             <title>Projeto 06</title>
         </head>
-        <body>
-            
+        <body>  
             <section class="main">
                 <div class="layer"></div><!--layer-->
                 <div class="center">
@@ -61,8 +60,7 @@
                                 </div><!--preco-->
                             </div><!--box-planos-wraper-->
                         </div><!--box-planos-single-->
-
-                         <div class="box-planos-single">
+                        <div class="box-planos-single">
                             <div class="box-planos-wraper">
                                 <h2>Lorem ipsum</h2>
                                 <div class="pontos-plano">
@@ -76,7 +74,6 @@
                                 </div><!--preco-->
                             </div><!--box-planos-wraper-->    
                         </div><!--box-planos-single-->
-                            
                         <div class="box-planos-single">
                             <div class="box-planos-wraper">
                                 <h2>Lorem ipsum</h2>
@@ -91,9 +88,18 @@
                                 </div><!--preco-->
                             </div><!--box-planos-wraper-->
                         </div><!--box-planos-single-->
-
                     </div><!--center-->
                 </section><!--box-planos-->
             </section><!--planos-->
+            <section class="parallax">
+                <div class="overlay.parallax"></div>
+                <div class="center">
+                    <h2>Sobre nossa <span style="color: #2692FF;">empresa</span></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mattis nisi risus, sed hendrerit orci cursus ac. Nunc placerat sagittis dictum. Vestibulum vel rhoncus elit. Nam dignissim, purus et fermentum mattis, nunc sapien dignissim mi, in accumsan massa dolor vitae odio. Sed arcu libero, fringilla nec mollis ut, finibus sit amet neque. Cras pretium est in sapien tristique, ac tincidunt dolor viverra.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mattis nisi risus, sed hendrerit orci cursus ac. Nunc placerat sagittis dictum. Vestibulum vel rhoncus elit. Nam dignissim, purus et fermentum mattis, nunc sapien dignissim mi, in accumsan massa dolor vitae odio. Sed arcu libero, fringilla nec mollis ut, finibus sit amet neque. Cras pretium est in sapien tristique, ac tincidunt dolor viverra.</p>
+
+                </div><!--center-->
+
+            </section><!--parallax-->
         </body>
     </html>
