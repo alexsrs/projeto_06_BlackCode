@@ -3,7 +3,7 @@
         <head>
             <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
-            <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet"> 
             <script src="https://kit.fontawesome.com/c50df8b1a0.js" crossorigin="anonymous"></script>
             <link rel="stylesheet" type="text/css" href="css/style.css">
             <title>Projeto 06</title>
@@ -91,15 +91,18 @@
                     </div><!--center-->
                 </section><!--box-planos-->
             </section><!--planos-->
+
+
             <section class="parallax">
-                <div class="overlay.parallax"></div>
+                <div class="overlay-parallax"></div>
                 <div class="center">
                     <h2>Sobre nossa <span style="color: #2692FF;">empresa</span></h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mattis nisi risus, sed hendrerit orci cursus ac. Nunc placerat sagittis dictum. Vestibulum vel rhoncus elit. Nam dignissim, purus et fermentum mattis, nunc sapien dignissim mi, in accumsan massa dolor vitae odio. Sed arcu libero, fringilla nec mollis ut, finibus sit amet neque. Cras pretium est in sapien tristique, ac tincidunt dolor viverra.</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mattis nisi risus, sed hendrerit orci cursus ac. Nunc placerat sagittis dictum. Vestibulum vel rhoncus elit. Nam dignissim, purus et fermentum mattis, nunc sapien dignissim mi, in accumsan massa dolor vitae odio. Sed arcu libero, fringilla nec mollis ut, finibus sit amet neque. Cras pretium est in sapien tristique, ac tincidunt dolor viverra.</p>
 
                 </div><!--center-->
-
             </section><!--parallax-->
+
+
         </body>
     </html>
