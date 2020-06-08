@@ -93,9 +93,48 @@ nav.desktop a{
 	text-decoration: none;
 }
 
+nav.mobile{
+	display: none;
+	float: right;
+
+}
+
+nav.mobile ul{
+	z-index: 2;
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 96px;
+	list-style-type: none;
+	background: white;
+	width: 100%;
+}
+ 
+nav.mobile li{
+	padding: 8px 0;
+	text-align: center;
+	font-weight: lighter;
+	border-bottom: 1px solid #CCC;
+}
+
+nav.mobile a{
+	display: block;
+	text-decoration: none;
+	color: #444444;
+
+}
+
+nav.mobile > i{
+	position: relative;
+	top: 23px;
+	cursor: pointer;
+	font-size: 25px;
+	color: white;
+}
+
 .conteudo-header{
 	position: relative;
-	margin: 100px 0;
+	margin: 120px 0;
 	max-width: 700px;
 	z-index: 2;
 
@@ -322,7 +361,7 @@ section.final-section h2 > .borda-efeito{
 	-webkit-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
 	-moz-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
 	box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
-}s
+}
 
 
 
@@ -336,17 +375,26 @@ section.final-section h2 > .borda-efeito{
 	width: 60px;
 	height: 60px;
 	border-radius: 50%;
-	background: #cccccc;
+	/*background: #cccccc;*/
 	vertical-align: middle;
+	background-size: cover;
+	border: 2px solid #2692ff;	
 	/*Aplicar background-image om a imagem desejada */
+}
+
+.masc{
+	background-image: url('../images/avatar-m.jpg');
+}
+
+.fem{
+	background-image: url('../images/avatar-f.jpg');
 }
 
 .info-usuario{
 	display: inline-block;
-	color: #777777;
+	color: #2692ff;
 	padding-left: 8px;
 	vertical-align: middle;
-
 }
 
 .descricao-usuario-box{
@@ -358,11 +406,31 @@ section.final-section h2 > .borda-efeito{
 }
 
 
+footer{
+	background-color: #192123;
+	padding: 40px 0 20px 0;
+	text-align: center;
+	color: white;
+}
 
+footer p {
+	font-weight: 300;
+	font-size: 14px;
+}
 
 
 
 @media screen and (max-width: 768px){
+
+	nav.mobile{
+		display: block;
+	}
+
+	nav.desktop{
+		display: none;
+	}
+
+
 	.box-planos-single{
 		width: 100%;
 		margin: 10px 0;
